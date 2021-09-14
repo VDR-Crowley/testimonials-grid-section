@@ -72,7 +72,7 @@ blockquote {
 
 .section-purple {
   display: grid;
-  grid-template-columns: 40px;
+  grid-template-columns: repeat(auto-fit, 1fr);
   grid-auto-columns: 1fr;
   grid-area: s-purple;
   gap: 10px 0;
@@ -108,7 +108,8 @@ blockquote {
 
 .section-gray {
   display: grid;
-  grid-template-columns: 40px;
+  grid-template-columns: repeat(auto-fit, 1fr);
+
   grid-auto-columns: 1fr;
   grid-area: s-gray;
   gap: 10px 0;
@@ -143,7 +144,7 @@ blockquote {
 
 .section-white1 {
   display: grid;
-  grid-template-columns: 40px;
+  grid-template-columns: repeat(auto-fit, 1fr);
   grid-auto-columns: 1fr;
   grid-area: white1;
   gap: 10px 0;
@@ -187,7 +188,7 @@ blockquote {
 
 .section-black {
   display: grid;
-  grid-template-columns: 40px;
+  grid-template-columns: repeat(auto-fit, 1fr);
   grid-auto-columns: 1fr;
   grid-area: blacke;
   gap: 10px 0;
@@ -222,7 +223,7 @@ blockquote {
 
 .section-white2 {
   display: grid;
-  grid-template-columns: 40px;
+  grid-template-columns: repeat(auto-fit, 1fr);
   grid-auto-columns: 1fr;
   grid-area: white2;
   gap: 10px 0;
