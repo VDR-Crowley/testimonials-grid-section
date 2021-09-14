@@ -22,6 +22,10 @@
 body {
   font-size: 13px;
   font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.bg {
+  background: var(--Light-grayish-blue);
   display: flex;
   flex-direction: column;
   align-items: center;
