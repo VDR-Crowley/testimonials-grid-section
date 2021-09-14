@@ -273,7 +273,7 @@ blockquote {
 
 @media (max-width: 969px) {
 
-  body {
+  .bg {
     height: auto;
   }
 
@@ -319,7 +319,7 @@ blockquote {
 
 @media (max-width: 767px) {
 
-  body {
+  .bg {
     height: auto;
   }
   
